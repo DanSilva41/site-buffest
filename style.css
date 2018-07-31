@@ -1,0 +1,399 @@
+﻿
+/*Imagem de fundo do Bar de Navegação*/
+.fundo{
+	background-image: url('imagens/fundo.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: 100% 500px ;
+	text-align: center;
+	width: 100%;
+	height: 500px;
+	
+}
+#topo{
+	width: 100%;
+	height: 500px;
+	float: left;
+}
+
+/*Logotipo(BUFFEST)*/
+#logo{
+	width: 300px;
+	height: 140px;
+	margin: 0;
+	padding: 0;
+}
+/*Linha horizontal*/
+hr { 
+    display: block;
+    margin-top: 0.0em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: white;
+    float: right;
+   
+}
+/*css do Bar de navegação*/
+#menu ul {
+	list-style-type: none;
+    font-size: 25px;
+    font-style: italic;
+    font-family: JasmineUPC;
+    text-transform: uppercase;
+   
+}
+#menu ul li{
+	display:inline-block;
+	position: relative;
+	float: right;
+}
+#menu ul li a{
+    padding: 0px 30px;
+    margin: 0px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    
+}
+#menu li ul{
+	display: none;
+}
+
+#menu li:hover ul{
+	display: block;
+	position: relative;
+
+}
+#menu li:hover li{
+	color: #65a9d7;
+	float: none;
+	font-weight: bold;
+	font-size: 22px;
+	font-family: dotum;
+	font-style: normal;
+	text-transform: capitalize;
+}
+#menu li:hover>a{
+	color: #65a9d7;
+}
+#menu ul li a:hover(.submenu){
+	color:black;
+}
+
+#texto{
+	border: 1px  solid white;
+	width: 100px;
+	border-width: 1px ; 
+	color:white;
+}
+
+/*css das fotos da galeria*/
+.city {
+	float: left; 
+	margin: 25px;
+	padding: 15px;
+	width: 300px;
+	height: 300px;
+	border-style: outset;
+	opacity: 0.8;
+    filter: alpha(opacity=40);
+	
+}
+.foto{
+	width: 130px;
+	height: 130px;
+}
+
+.city:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+#contato{
+	border: double;
+	color: black;
+	font-family: Monotype Corsiva;
+	font-style: italic; 
+	margin: 40px;
+	border-width: 10px;
+}
+h2{
+	color:gray;
+}
+#hr{
+	border: inset;
+	color: #ffe680;
+	font-family: Monotype Corsiva;
+	font-style: italic; 
+	margin: 10px 40px;
+}
+p{
+	font-family: arial;
+	font-size: 16px;
+	color:black;
+	border:1px;
+	border-color: black;
+
+}
+div.sinal{
+	margin: 0;
+	padding: 50px;
+	width: 300px;
+	list-style-type: none;
+	display: inline-block;
+}
+.sinal2{
+	text-align: center;
+	margin: 0;
+	padding: 50px;
+	width: 300px;
+	list-style-type: none;
+	display: inline-block;
+}
+ul li {
+	list-style-type: none;
+}
+.img-sinal{
+	width: 70px;
+	align-self: center;
+
+
+}
+.img-sinal2{
+	align-self: center;
+	margin: 30px;
+	margin-bottom: 120px;
+	width: 700px;
+}
+h3{
+	font-family: times new Roman;
+	font-size: 18px;
+}
+h4{
+	font-weight: bold;
+	color: black;
+	font-family: "Times New Roman", Times, serif;
+}
+#fale{
+	display: block;
+    margin-top: 0.0em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+    float: right;
+    
+}
+#content{
+	width: 100%;
+	height: auto;
+
+}
+
+/* Carecteristicas da div. */
+
+/* Carecteristicas de tudo que esta dentro da Div e com Link */
+#content ul li a{
+display:inline;
+position:relative;
+font-family: JasmineUPC;
+font-size:50px;
+margin:0 auto;
+padding: 10px;
+float:left;
+}
+
+/* Efeitos do texto */
+#content ul li a span{
+display:block;
+padding:10px;
+color:purple;
+position:absolute;
+bottom:0;
+left:0;
+-webkit-border-radius:0 0 5px 5px;
+-moz-border-radius:0 0 5px 5px;
+border-radius:0 0 5px 5px;
+opacity:0;
+-moz-opacity:0;
+filter:alpha(opacity=0);
+}
+#content ul li a:hover img{
+	box-shadow: 0 0 2px 1px black;
+
+}
+/* Efeitos do texto quando o mouse estive em cima da Imagem */ 
+#content ul li:hover span{
+border: 1px solid f00;
+opacity:1;
+-moz-opacity:1;
+filter:alpha(opacity=100);
+}
+
+
+
+#content ul li a img{ /* Tamanho da imagem na DIV */
+width:450px;
+height:300px;
+
+}
+
+.responsive {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+}
+
+#content ul li a span{ /* Espaço da mensagem que ira aparecer */
+width:300px;
+padding-bottom:150px;
+padding-left: 100px;
+}
+#front-culinaria{
+	display: inline-block; 
+	vertical-align: top;
+	margin: 15px;
+	padding: 15px;
+	width: 450px;
+	height: 280px;
+	border: 1px;
+	border:outset;
+	background: red; /* For browsers that do not support gradients */
+	background: -webkit-radial-gradient(circle, #99ffbb, #ffaa80, #e6ffff); /* Safari */
+	background: -o-radial-gradient(circle, #99ffbb, #ffaa80, #e6ffff); /* Opera 11.6 to 12.0 */
+	background: -moz-radial-gradient(circle, #99ffbb, #ffaa80, #e6ffff); /* Firefox 3.6 to 15 */
+	background: radial-gradient(circle, #99ffbb, #ffaa80, #e6ffff); /* Standard syntax */
+	
+}
+#front-culinaria2{
+	display: inline-block; 
+	vertical-align: top;
+	margin: 15px;
+	padding: 15px;
+	width: 450px;
+	height: 280px;
+	border: 1px;
+	border:outset;
+	background: red; /* For browsers that do not support gradients */
+	background: -webkit-radial-gradient(circle, #99ffbb,  #ffc266, white); /* Safari */
+	background: -o-radial-gradient(circle, #99ffbb,  #ffc266,white); /* Opera 11.6 to 12.0 */
+	background: -moz-radial-gradient(circle, #99ffbb,  #ffc266, white); /* Firefox 3.6 to 15 */
+	background: radial-gradient(circle, #99ffbb,  #ffc266, white); /* Standard syntax */
+}
+#culinaria{
+	font-family: arial;
+	font-style: italic;
+	font-size: 23px;
+	margin:2px;
+	padding: 15px;
+	width: 420px;
+	height: 38px;
+	border:1px;
+	border:double;
+	border-color:   #993300;
+
+}
+#img-culinaria{
+	width: 440px;
+	height: 200px;
+	margin-left: 10px;
+}
+@font-face{
+	font-family: alexbrush;
+	src:url('AlexBrush-Regular.ttf');
+}
+#rodape{ 
+	width: 100%;
+	height: 200px;
+	float: left;
+	background: #e5e5cc;
+}
+#rodape ul {
+	list-style-type: none;
+    margin: 4px;
+    padding: 12px;
+}
+#rodape ul li{
+	display:inline-block;
+	position: relative;
+}
+
+
+.certificado{
+	width: 80px;
+	height: 60px;
+}
+#empresa{
+	text-align: center;
+	font-size: 25px;
+	margin:0px;
+	margin-left: 20px;
+	margin-top: -40px
+	padding-left: 100px;
+}
+#telefone{
+	text-decoration: none;
+	font-size: 40px;
+	margin: 290px;
+	padding: 70px;
+}
+.icones{
+	width: 40px;
+	margin: 20px;
+}
+
+
+ 
+
+
+
+
+/*css do Formulário de Contato*/
+form {
+	width: 900px;
+	margin: 0 auto;
+	margin-left: 300px;
+}
+
+input, textarea{
+	margin:15px 0 0 0 ;
+	border: 0;
+	background: #282828;
+	box-shadow: inset 0px 2px 5px 0px rgba(0,0,0.50), 
+	0px 1px 0px 0px rgba(255,255,0.50);
+	color: #FFFFFF;
+	border-radius: 8px;
+	width: 68%;
+	padding: 10px;
+	font-size: 18px;
+	font-family: Times New Roman, serif;
+	
+}
+textarea{
+	height: 150px;
+}
+
+.pnBotoes{
+	margin-top: 50px;
+	position:absolute;
+	left: 50%;
+	margin-left: -200px;
+}
+
+.button {
+	border-top: 1px solid #96d1f8;
+	background: #65a9d7;
+	padding: 15px 20px;
+	border-radius: 9px;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	text-shadow: rgba(0,0,0,.4) ;
+	color: white;
+	font-family: Times New Roman, serif;
+	text-decoration: none;
+	font-size: 20px;
+}
+.formlario{
+	background: black;
+	border: 1px solid black;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+   <head >
+      <title>Exemplo de Trabalho</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" type="text/css" href="home.css">
+   </head>
+   <body>
+      <div id="topo">
+         <header class="fundo" >
+            <center>
+               <a href="home.html"><img id="logo" src="imagens/logotipo.png"/></a>
+            </center>
+            <nav id="menu">
+               <ul>
+                  <li><a href="contato.html">Contato</a></li>
+                  <li><a href="historia.html">História</a></li>
+                  <li><a href="buffet.html">Buffet</a></li>
+                  <li>
+                     <a href="home.html">Eventos</a>
+                     <ul class="submenu">
+                        <li><a href="casamento.html">Casamentos</a></li>
+                        <br>
+                        <li><a href="formatura.html">Formaturas</a></li>
+                        <br>
+                        <li><a href="15anos.html">15 anos</a></li>
+                        <br>                          
+                     </ul>
+                  </li>
+               </ul>
+            </nav>
+         </header>
+      </div>
+      <br/>
+      <div id="content">
+         <div id="contato">
+            <center>
+               <h1>Cada cliente para a Buffest é único. Assim como cada evento é tratado com exclusividade.</h1>
+            </center>
+         </div>
+         <div id="hr">
+            <center>
+               <p id="texto-contato">Informações Importantes Sobre Reservas</p>
+            </center>
+         </div>
+         <div class="sinal">
+            <ul>
+               <li>
+                  <center><img class="img-sinal" src="imagens/sinal.png">
+               </li>
+               </center>
+               <li>
+                  <h3>Nossa estrutura conta com 2 salões próprios climatizados com capacidade total de 800 pessoas sentadas cada.
+                     Sugerimos um mínimo 300 pessoas para utilização dos nossos salões separadamente.
+                  </h3>
+               </li>
+               <br>
+            </ul>
+         </div>
+         <div class="sinal" style="padding: 10px; " >
+            <ul>
+               <li>
+                  <center><img class="img-sinal" src="imagens/sinal2.png">
+               </li>
+               </center>
+               <li>
+                  <h3>O buffet completo inclui: salgados, mesa de frios, ponto de frutos do mar, pontos temáticos (mineiro, árabe, italiano, mexicano),  jantares empratados ou à americana, sobremesa, doces e cafés. Além de bebidas, água, refrigerantes, cerveja, vasilhames e profissionais</h3>
+               </li>
+            </ul>
+         </div>
+         <div class="sinal">
+            <ul>
+               <li>
+                  <center><img class="img-sinal" src="imagens/sinal3.png">
+               </li>
+               </center>
+               <li>
+                  <h3>Não disponibilizamos mobiliário e decoração, estes itens devem ser contratados pelo cliente.
+                     O gerador de energia de 80 kva está incluso na locação dos salões.
+                  </h3>
+               </li>
+               <br>
+            </ul>
+         </div>
+         <hr size="0" width="100%" align="left" >
+         </hr>
+         <div class="formulario">
+            <section>
+               <header>
+                  <center>
+                     <h2 id="entre-cor">Entre em Contato</h2>
+                  </center>
+               </header>
+               <form action="#">
+                  <input type="text"  name="nome" id="nome" class="cxTexto" placeholder="Nome" required />
+                  <input type="email"  name="email" id="email" class="cxTexto" placeholder="Email" required />
+                  <input type="assunto"  name="assunto" id="assunto" class="cxTexto" placeholder="Assunto" required />
+                  <textarea name="mensagem"  id="mensagem" placeholder="Mensagem"></textarea>
+                  <div class="pnBotoes">
+                     <button type="button" class="button" onclick="alert('Enviado com sucesso')">Enviar</button>
+                     <button type="reset" class="button">Limpar</button>
+                  </div>
+               </form>
+            </section>
+         </div>
+      </div>
+      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+      <div id="rodape">
+         <nav>
+            <ul>
+               <li><img class="certificado"src="imagens/certificado1.png"/></li>
+               <li><img class="certificado"src="imagens/certificado2.png"/></li>
+               <li id="empresa">
+                  <h4>Buffest • Desde 1955<br>Shis Qi 5 Conjunto 16, S/n - Loja 19 - Lago Sul, Brasília - DF, 71615-907 </h4>
+               </li>
+               <li><a class="icones"href="#">
+                  <img src="imagens/face.png" style="width: 50px;"/>
+                  </a>
+               </li>
+               <li><a class="icones"href="#">
+                  <img src="imagens/youtube.png" style="width: 50px;">
+                  </a>
+               </li>
+               <li><a id="telefone" href="#">(61) 3905-0000</a></li>
+            </ul>
+         </nav>
+      </div>
+   </body>
+</html>
