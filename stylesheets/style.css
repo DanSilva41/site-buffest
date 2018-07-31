@@ -1,7 +1,7 @@
 ﻿
 /*Imagem de fundo do Bar de Navegação*/
 .fundo{
-	background-image: url('imagens/fundo.jpg');
+	background-image: url('../imagens/fundo.jpg');
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-size: 100% 500px ;
